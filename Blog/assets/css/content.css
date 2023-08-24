@@ -1,0 +1,49 @@
+.content{
+    grid-area: main;
+}
+main{
+    padding: 50px;
+}
+ul{
+    display: flex;
+    list-style: none;
+}
+main ul li{
+    text-align: center;
+    width: 500px;
+    border: 1px  white;
+    background-color: aliceblue;
+    padding: 40px;
+    margin: 40px;
+}
+
+main ul li h2{
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: blue;
+}
+main ul li img{
+    width: 80%;
+    margin-right: 23px;
+}
+main ul li button{
+   background-color: white;
+   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   width: 100px;
+   height: 25px;
+   
+}
+main ul li p{
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+main ul li button a{
+    text-decoration: none;
+    font-size:small;
+    font-style: italic black bold;
+    text-transform: uppercase;
+}
+main ul li button a:hover{
+    color: blue;
+}

@@ -1,0 +1,17 @@
+.box{
+ 
+    background: #f2f2f2;
+    }
+
+  
+  .footer{
+    grid-area: ft;  
+}
+footer {
+    background-color: #f2f2f2;
+    padding: 10px;
+    text-align: center;
+    font-style: italic;
+    font-style: underline;
+}
+  

@@ -1,0 +1,57 @@
+@import url('content.css');
+@import url('header.css');
+@import url('footer.css');
+/* Styles for mobile devices */
+body {
+  font-size: 14px;
+}
+
+/* Styles for tablets */
+@media (min-width: 768px) {
+  body {
+    width: 50%;
+    height: 100%;
+    font-size: 16px;
+  }
+}
+
+/* Styles for desktops */
+@media (min-width: 1024px) {
+  body {
+    height: 100%;
+    width: 100%;
+    font-size: 18px;
+  }
+}
+
+/* Additional styles for specific breakpoints */
+@media (min-width: 1200px) {
+    body{
+      height: 100%;
+    width: 100%;
+    }
+}
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container{
+    /* Step 1: Set display to grid */
+      display:grid;
+    /* Step 2: setup rows amd columns */
+      /* grid-template-columns: repeat(3, 1fr); */
+      grid-template-columns: 300px 300px 300px;
+      grid-template-rows: 100px 500px 50px;
+      grid-template-areas: 
+      "hd hd hd hd hd hd hd hd"
+      "main main main main main main main main"
+      "ft ft ft ft ft ft ft ft";
+}
+blockquote {
+  margin: 10px 0;
+  padding: 10px;
+  border-left: 2px solid #333;
+  background-color: #f2f2f2;
+}

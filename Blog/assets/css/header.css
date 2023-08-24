@@ -1,0 +1,50 @@
+.header{
+    /* row start/column start/ row end/ column end */
+    grid-area:hd;
+}
+nav{
+    display: flex;
+    width: 100% ;
+    background-color: rgba(0, 0, 255, 0.541);
+    height: 80px;
+    justify-content: space-between;
+}
+.logo{
+    display: flex;
+    font-size: 40px;
+    font-weight: 700;
+    padding: 10px;
+    color: white;
+    letter-spacing: 3px;
+    cursor: pointer;
+    text-transform: uppercase;
+}
+.navItem{
+    display: flex;
+}
+.navItem li {
+    list-style: none;
+    margin: 20px 15px;
+}
+.navItem li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+    letter-spacing: 3px;
+}
+.navItem li a:hover{
+    color:black ;
+}
+.links{
+    display: flex;
+}
+.links a{
+    margin: 20px 15px;
+    text-decoration: none;
+    font-size:small;
+    color: white;
+    text-transform: uppercase;
+}
+.links a:hover{
+    color: black;
+}
